@@ -1,0 +1,53 @@
+.header-container {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.about-me {
+  width: 410px;
+  margin-right: 10%;
+}
+.about-me .header-heading {
+  background-image: linear-gradient(to right, #f700ff, #0800ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-me .header-para {
+  font-size: 25px;
+  background-image: linear-gradient(to left, #ff002f, #7300ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-variant: small-caps;
+}
+.header-image {
+  width: 350px;
+  border-radius: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease-in-out;
+}
+.header-image:hover {
+  transform: scale(1.1);
+}
+
+.hire-btn {
+  margin-left: 30%;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+  background-color: rgb(20, 246, 20);
+  border: none;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hire-btn:hover {
+  background-color: rgb(52, 251, 52);
+  cursor: pointer;
+  transform: scale(1.3);
+}

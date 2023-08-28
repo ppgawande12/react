@@ -1,0 +1,53 @@
+.nav-container {
+  margin: 0;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  z-index: 999;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav-heading {
+  background-image: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  padding-left: 50px;
+  margin: 0;
+  margin-top: 7px;
+  padding-left: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px 80px;
+  margin: 0;
+  font-size: 20px;
+}
+.nav li {
+  margin-left: 20px;
+}
+.nav li a {
+  text-decoration: none;
+  color: rgb(160, 0, 219);
+}
+
+.nav:hover a {
+  filter: blur(5px);
+}
+.nav:hover a:hover {
+  filter: blur(0px);
+  color: rgb(3, 125, 232);
+}

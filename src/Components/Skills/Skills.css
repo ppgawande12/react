@@ -1,0 +1,27 @@
+.skills {
+  text-align: center;
+  width: 500px;
+  margin: 10% auto;
+
+  border-radius: 50px;
+  background-color: #bfbff6;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 34, 253, 0.6);
+}
+
+.skills div {
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: #02022c;
+  border-radius: 20px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+.skills div:hover {
+  transform: scale(1.1);
+}
